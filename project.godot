@@ -10,16 +10,15 @@ config_version=5
 
 [application]
 
-config/name="Pawsome Realms"
-run/main_scene="res://node_2d.tscn"
-config/features=PackedStringArray("4.2", "C#", "GL Compatibility")
-config/icon="res://icon.svg"
+config/name="PawsomeRealms"
+run/main_scene="res://src/Main.tscn"
+config/features=PackedStringArray("4.1", "C#", "Mobile")
+config/icon="res://icon.png"
 
 [dotnet]
 
-project/assembly_name="Pawsome Realms"
+project/assembly_name="PawsomeRealms"
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+renderer/rendering_method="mobile"
